@@ -75,6 +75,8 @@ $stmt->bind_param("ss", $email, $password);
 $stmt->execute();
 
 ## hasil eksperimen
+![Form Login](gambar/halaman-login.png)
 
-1. halaman login
-![Login](gambar/halaman login.png)
+![Login Berhasil](gambar/login-berhasil.png)
+
+![Login Gagal](gambar/login-gagal.png)
