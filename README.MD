@@ -73,3 +73,7 @@ Menggunakan prepared statement:
 $stmt = $conn->prepare("SELECT * FROM users WHERE email=? AND password=?");
 $stmt->bind_param("ss", $email, $password);
 $stmt->execute();
+
+## hasil eksperimen
+
+1. halaman login
